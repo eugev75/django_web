@@ -3,8 +3,9 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django. contrib.auth import login, logout, authenticate
 from django.db import IntegrityError
+from tasks.models import Task
 from .forms import TaskForm
-from .models import Task
+from django.contrib.auth.models import User
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required
 # Create your views here.
